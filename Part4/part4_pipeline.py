@@ -10,7 +10,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 
 
-DB_URL = "postgresql+psycopg://postgres:postgres@localhost:5432/insurancecomp2_eda"
+DB_URL = "postgresql+psycopg://postgres:YOUR_PASSWORD@localhost:5432/insurancecomp2_eda"
 
 DATA_DIR = Path(__file__).parent / "Data"
 
