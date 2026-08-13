@@ -11,10 +11,10 @@ The business goal is to help the insurer anticipate chronic disease burden from 
 ## Repository structure
  
 ```
-part1-modeling/          Conceptual entity-relationship model
-part2-logical-schema/    Logical schema, hybrid data extension
-part3-physical-ml/       Physical design, machine learning models
-part4-application/       Data-driven pipeline module and web application
+Part 1/        Conceptual entity-relationship model
+Part 2/       Logical schema, hybrid data extension
+Part 3/       Physical design, machine learning models
+Part 4/       Data-driven pipeline module and web application
 ```
  
 ## Setup
@@ -70,7 +70,7 @@ To see change detection work, append a row to `data/aqi_ny_county.csv` and run a
  
 ```bash
 cd part4-application
-streamlit run part4_app_simple.py
+streamlit run part4_app.py
 ```
  
 Opens at `http://localhost:8501`. Enter applicant details and a New York ZIP code; the application resolves the ZIP to a county, retrieves that county's machine-learning risk tier, calculates a premium and issues a policy.
