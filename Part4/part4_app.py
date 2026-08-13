@@ -8,7 +8,7 @@ import pandas as pd
 import streamlit as st
 from sqlalchemy import create_engine, text
 
-DB_URL = "postgresql+psycopg://postgres:postgres@localhost:5432/insurancecomp2_eda"
+DB_URL = "postgresql+psycopg://postgres:YOUR_PASSWORD@localhost:5432/insurancecomp2_eda"
 engine = create_engine(DB_URL)
 
 BASE_MONTHLY = 380.00
